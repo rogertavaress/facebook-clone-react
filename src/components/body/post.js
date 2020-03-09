@@ -2,22 +2,21 @@ import React from "react";
 
 import PostComment from "./postComment";
 
-import Homer from "../../assets/profile_homer.png";
-
-function post() {
+function post({ post }) {
   return (
     <section className="post">
       <div>
-        <img src={Homer} />
+        <img src={post.author.avatar} />
         <div>
-          <p className="name">Homer Simpson</p>
-          <p>Hoje</p>
+          <p className="name">{post.author.name}</p>
+          <p>{post.date}</p>
         </div>
       </div>
-      <p>Alguém viu o Bart por ai?</p>
+      <p>{post.content}</p>
       <hr />
-      <PostComment />
-      <PostComment />
+      {post.comments.map(comment => (
+        <PostComment key={comment.id} comment={comment} />
+      ))}
     </section>
   );
 }

@@ -1,13 +1,11 @@
 import React from "react";
 
-import Homer from "../../assets/profile_homer.png";
-
-function postComment() {
+function postComment({ comment }) {
   return (
     <div className="comments">
-      <img src={Homer} />
+      <img src={comment.author.avatar} />
       <p>
-        <strong>Bart</strong> Teste
+        <strong>{comment.author.name}</strong> {comment.content}
       </p>
     </div>
   );
