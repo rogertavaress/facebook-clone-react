@@ -1,9 +1,5 @@
 # :rocket: Facebook Clone - Feito com ReactJS
 
-<h1 align="center">
-  <img alt="Facebook" title="Facebook" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Facebook-reversed.svg/1280px-Facebook-reversed.svg.png" max-width="300px" />
-</h1>
-
 <blockquote align="center">
 “Sucesso não é o resultado de um jogo, mas o destino de uma jornada”!
 </blockquote>
