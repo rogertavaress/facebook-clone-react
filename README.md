@@ -1,7 +1,7 @@
 # :rocket: Facebook Clone - Feito com ReactJS
 
 <h1 align="center">
-  <img alt="Facebook" title="Facebook" src="src/assets/facebook" max-width="300px" />
+  <img alt="Facebook" title="Facebook" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Facebook-reversed.svg/1280px-Facebook-reversed.svg.png" max-width="300px" />
 </h1>
 
 <blockquote align="center">
